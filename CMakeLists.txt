@@ -37,16 +37,16 @@ option( BUILD_TESTS
         OFF )
 option( BUILD_DEMOS
         "Set this to ON to build demo executables."
-        ON )
+        OFF )
 option( BUILD_CLONE_SUBMODULES
         "Set this to ON to automatically clone any required Git submodules. When OFF, submodules must be manually cloned."
         ON )
 option( DOWNLOAD_CERTS
         "Set this to ON to automatically download certificates needed to run the demo. When OFF, certificates must be manually downloaded."
-        ON )
+        OFF )
 option( INSTALL_PLATFORM_ABSTRACTIONS
         "Set this to ON to install POSIX platform abstractions that are used together with the C-SDK libraries in the demos."
-        ON )
+        OFF )
 option( INSTALL_TO_SYSTEM
         "Set this to ON to install libraries and headers to the default system path (e.g. /usr/local/lib, /usr/local/include)."
         OFF )
